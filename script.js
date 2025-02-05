@@ -34,7 +34,7 @@ function checkGuess(button, color) {
 
   const gameStatus = document.getElementById("gameStatus");
   if (color === targetColor) {
-    gameStatus.textContent = "Correct!";
+    gameStatus.textContent = "Correct!👍🏻";
     gameStatus.classList.add("correct");
     score++;
     document.getElementById("score").textContent = score;
